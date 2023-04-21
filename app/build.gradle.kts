@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -50,4 +51,8 @@ dependencies {
     implementation(Dependencies.MVI_BINDER)
     implementation(Dependencies.MVI_HELPER)
     implementation(Dependencies.MVI_MODEL_WATCHER)
+
+    //firebase
+    implementation(platform(Dependencies.FIREBASE_BOM))
+    implementation(Dependencies.FIREBASE_CRASHLITICS)
 }

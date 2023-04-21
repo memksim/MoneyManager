@@ -1,6 +1,7 @@
 object Versions {
     const val CORE = "1.7.0"
     const val APPCOMPAT = "1.6.1"
+    const val GOOGLE_SERVICES = "4.3.15"
 
     //ui
     const val MATERIAL = "1.8.0"
@@ -13,4 +14,7 @@ object Versions {
 
     //mvi core
     const val MVI_CORE = "1.4.0"
+
+    //firebase
+    const val FIREBASE_BOM = "31.5.0"
 }
