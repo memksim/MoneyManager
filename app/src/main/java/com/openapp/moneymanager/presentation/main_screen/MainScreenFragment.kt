@@ -18,7 +18,7 @@ class MainScreenFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val view = LayoutInflater.from(context).inflate(inflater, container, false)
+        val view = inflater.inflate(R.layout.fragment_main_screen, container, false)
         _binding = FragmentMainScreenBinding.bind(view)
 
         return binding?.root ?: view
