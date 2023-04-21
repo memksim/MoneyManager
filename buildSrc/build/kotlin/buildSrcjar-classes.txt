@@ -1,1 +1,1 @@
-C:\Users\kmd02\Desktop\Pet\MoneyManager\buildSrc\build\classes\kotlin\main\Dependencies.class;C:\Users\kmd02\Desktop\Pet\MoneyManager\buildSrc\build\classes\kotlin\main\Versions.class
+H:\myAndroid\AndroidStudioProjects\MoneyManager\buildSrc\build\classes\kotlin\main\Dependencies.class;H:\myAndroid\AndroidStudioProjects\MoneyManager\buildSrc\build\classes\kotlin\main\Versions.class

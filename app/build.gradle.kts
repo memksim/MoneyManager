@@ -5,6 +5,9 @@ plugins {
 }
 
 android {
+
+    viewBinding.isEnabled = true
+
     namespace = "com.openapp.moneymanager"
     compileSdk = 33
 
