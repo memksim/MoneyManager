@@ -19,6 +19,12 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        configurations.all{
+            resolutionStrategy {
+                force("androidx.work:work-runtime:2.6.0")
+            }
+        }
     }
 
     buildTypes {
@@ -58,4 +64,8 @@ dependencies {
     //firebase
     implementation(platform(Dependencies.FIREBASE_BOM))
     implementation(Dependencies.FIREBASE_CRASHLITICS)
+
+    //coroutines
+    implementation(Dependencies.COROUTINES)
+    implementation(Dependencies.COROUTINES_ANDROID)
 }
