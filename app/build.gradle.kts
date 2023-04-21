@@ -5,9 +5,6 @@ plugins {
 }
 
 android {
-
-    viewBinding.isEnabled = true
-
     namespace = "com.openapp.moneymanager"
     compileSdk = 33
 
@@ -39,6 +36,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
