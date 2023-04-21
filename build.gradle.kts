@@ -3,7 +3,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven("https://jitpack.io")
     }
     dependencies {
         classpath(Dependencies.GOOGLE_SERVICES)

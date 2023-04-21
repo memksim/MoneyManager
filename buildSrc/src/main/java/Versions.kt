@@ -17,4 +17,7 @@ object Versions {
 
     //firebase
     const val FIREBASE_BOM = "31.5.0"
+
+    //coroutines
+    const val COROUTINES = "1.7.0-RC"
 }

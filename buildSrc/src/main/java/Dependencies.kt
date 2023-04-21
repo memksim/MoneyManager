@@ -21,4 +21,9 @@ object Dependencies {
     //firebase
     const val FIREBASE_BOM = "com.google.firebase:firebase-bom:${Versions.FIREBASE_BOM}"
     const val FIREBASE_CRASHLITICS = "com.google.firebase:firebase-analytics-ktx"
+
+    //coroutines
+    const val COROUTINES = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.COROUTINES}"
+    const val COROUTINES_ANDROID = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.COROUTINES}"
+
 }
