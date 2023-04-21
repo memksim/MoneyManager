@@ -44,4 +44,10 @@ dependencies {
     testImplementation(Dependencies.JUNIT)
     androidTestImplementation(Dependencies.EXT_JUNIT)
     androidTestImplementation(Dependencies.ESPRESSO_CORE)
+
+    //mvi core
+    implementation(Dependencies.MVI_CORE)
+    implementation(Dependencies.MVI_BINDER)
+    implementation(Dependencies.MVI_HELPER)
+    implementation(Dependencies.MVI_MODEL_WATCHER)
 }

@@ -10,4 +10,7 @@ object Versions {
     const val JUNIT = "4.13.2"
     const val EXT_JUNIT = "1.1.5"
     const val ESPRESSO_CORE = "3.5.1"
+
+    //mvi core
+    const val MVI_CORE = "1.4.0"
 }
