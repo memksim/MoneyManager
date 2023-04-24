@@ -6,14 +6,12 @@ object Versions {
     //ui
     const val MATERIAL = "1.8.0"
     const val CONSTRAINT = "2.1.4"
+    const val FRAGMENT = "1.5.7"
 
     //test
     const val JUNIT = "4.13.2"
     const val EXT_JUNIT = "1.1.5"
     const val ESPRESSO_CORE = "3.5.1"
-
-    //mvi core
-    const val MVI_CORE = "1.4.0"
 
     //firebase
     const val FIREBASE_BOM = "31.5.0"

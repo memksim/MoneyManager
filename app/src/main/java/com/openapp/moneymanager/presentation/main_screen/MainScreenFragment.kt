@@ -1,41 +1,41 @@
 package com.openapp.moneymanager.presentation.main_screen
 
-import android.os.Bundle
 import android.view.LayoutInflater
-import androidx.fragment.app.Fragment
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import com.openapp.moneymanager.R
+import com.openapp.moneymanager.base.BaseFragment
+import com.openapp.moneymanager.base.BaseViewModel
+import com.openapp.moneymanager.base.mvi.Action
 import com.openapp.moneymanager.databinding.FragmentMainScreenBinding
 
-class MainScreenFragment : Fragment() {
+class MainScreenFragment : BaseFragment<FragmentMainScreenBinding>() {
 
-    private var _binding: FragmentMainScreenBinding? = null
-    private val binding get() = _binding
+    override var binding: FragmentMainScreenBinding? = null
+    override val viewModel: MainScreenViewModel by viewModels()
 
-    override fun onCreateView(
+    override fun observeAction(action: Action) {
+        //todo
+    }
+
+    override fun onBind(
         inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+        container: ViewGroup?
     ): View {
         val view = inflater.inflate(R.layout.fragment_main_screen, container, false)
-        _binding = FragmentMainScreenBinding.bind(view)
-
+        binding = FragmentMainScreenBinding.bind(view)
         return binding?.root ?: view
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        binding?.let {
-            with(it) {
-                //todo
-            }
+    override fun onBound() = binding?.let {
+        with(it) {
+            //todo
         }
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    override fun onUnbind() {
+        binding = null
     }
 
 }
