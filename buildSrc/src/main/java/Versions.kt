@@ -6,6 +6,7 @@ object Versions {
     //ui
     const val MATERIAL = "1.8.0"
     const val CONSTRAINT = "2.1.4"
+    const val FRAGMENT = "1.5.7"
 
     //test
     const val JUNIT = "4.13.2"

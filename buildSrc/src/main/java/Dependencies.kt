@@ -6,6 +6,7 @@ object Dependencies {
     //ui
     const val MATERIAL = "com.google.android.material:material:${Versions.MATERIAL}"
     const val CONSTRAINT = "androidx.constraintlayout:constraintlayout:${Versions.MATERIAL}"
+    const val FRAGMENT = "androidx.fragment:fragment-ktx:${Versions.FRAGMENT}"
 
     //test
     const val JUNIT = "junit:junit:${Versions.JUNIT}"

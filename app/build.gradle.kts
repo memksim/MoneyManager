@@ -49,6 +49,7 @@ dependencies {
     //ui
     implementation(Dependencies.MATERIAL)
     implementation(Dependencies.CONSTRAINT)
+    implementation(Dependencies.FRAGMENT)
 
     //test
     testImplementation(Dependencies.JUNIT)
