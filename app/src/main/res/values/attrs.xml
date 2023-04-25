@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WalletView">
+        <attr name="amountText" format="string"/>
+        <attr name="last4NumbersText" format="string"/>
+        <attr name="walletNameText" format="string"/>
+        <attr name="dateText" format="string"/>
+        <attr name="walletCoverColor" format="color"/>
+        <attr name="walletCoverDrawable" format="reference"/>
+        <attr name="paymentSystemDrawable" format="reference"/>
+        <attr name="allTextColor" format="color"/>
+    </declare-styleable>
+    <attr name="walletStyle" format="reference"/>
+</resources>

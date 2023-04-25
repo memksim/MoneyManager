@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import com.openapp.moneymanager.R
 import com.openapp.moneymanager.base.BaseFragment
-import com.openapp.moneymanager.base.BaseViewModel
 import com.openapp.moneymanager.base.mvi.Action
 import com.openapp.moneymanager.databinding.FragmentMainScreenBinding
 
