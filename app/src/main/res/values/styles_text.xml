@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_14_normal" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="text_18_normal" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/text_18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="text_22_bold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/text_22</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text_28_bold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">@dimen/text_28</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
